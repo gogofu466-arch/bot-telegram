@@ -1,7 +1,8 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "8062826954:AAGGnR-eNT804QjWlwl5XSRvsY23OH3dy1U"
+import os
+TOKEN = os.getenv("8062826954:AAGGnR-eNT804QjWlwl5XSRvsY23OH3dy1U")
 
 data = {
     "Primer año": {
